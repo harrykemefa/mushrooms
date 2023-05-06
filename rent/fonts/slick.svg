@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 - Page Not Found - Powered by Nooklyn</title>
+
+    <style type="text/css">
+    body {
+      background-color: #050504;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      color: #fff;
+    }
+    img {
+      width: 100%;
+      margin: auto;
+      display: block;
+    }
+    h3 {
+      /* Positioning */
+      /* Box-model */
+      margin-bottom: 50px;
+      /* Typography */
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      /* Visual */
+      color: #ffc03a;
+      /* Misc */
+    }
+    p {
+      padding-top: 50px;
+      margin: 0 auto;
+      font-size: 14px;
+      text-align: left;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      line-height: 1.5;
+      max-width: 250px;
+    }
+    .btn-warning-outline {
+      color: #ffc03a;
+      border-color: #ffc03a;
+      -webkit-transition: all .2s ease-in-out;
+         -moz-transition: all .2s ease-in-out;
+              transition: all .2s ease-in-out;
+
+    }
+    .text-center {
+      text-align: center !important;
+    }
+    a {
+      text-decoration: none;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <img src="../images/404-merge.gif" class="img-fluid">
+      <p>The page you were looking for either never existed, was sucked into the digital vacuum of the deep net, or was replaced with this three-eyed cat. We may never know.</p>
+      <br>
+      <h3>Recommendations</h3>
+      <div class="text-center">
+        <a href="https://nooklyn.com" class="btn btn-warning-outline">Go Home</a> &middot;
+        <a href="https://nooklyn.com/support" class="btn btn-warning-outline">Get Help</a>
+      </div>
+    </div>
+
+  </body>
+</html>

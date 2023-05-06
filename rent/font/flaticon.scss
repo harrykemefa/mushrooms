@@ -1,0 +1,161 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7f78d892cf22ab5726ee3d9bad3b5f6f") format("truetype"),
+url("./flaticon.woff?7f78d892cf22ab5726ee3d9bad3b5f6f") format("woff"),
+url("./flaticon.woff2?7f78d892cf22ab5726ee3d9bad3b5f6f") format("woff2"),
+url("./flaticon.eot?7f78d892cf22ab5726ee3d9bad3b5f6f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7f78d892cf22ab5726ee3d9bad3b5f6f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "gate": "\f101",
+    "toilet": "\f102",
+    "bathroom": "\f103",
+    "bedroom": "\f104",
+    "living-room": "\f105",
+    "security": "\f106",
+    "insurance": "\f107",
+    "parking": "\f108",
+    "balcony": "\f109",
+    "water-supply": "\f10a",
+    "electric": "\f10b",
+    "air-conditioner": "\f10c",
+    "washing-machine": "\f10d",
+    "shop": "\f10e",
+    "dumbbell": "\f10f",
+    "lounge": "\f110",
+    "party-dj": "\f111",
+    "sunset": "\f112",
+    "park": "\f113",
+    "venus-de-milo": "\f114",
+    "settings": "\f115",
+    "wrench": "\f116",
+    "cocktail": "\f117",
+    "hotel": "\f118",
+    "garbage": "\f119",
+    "television": "\f11a",
+    "wifi-signal": "\f11b",
+    "kitchen": "\f11c",
+    "cleaning": "\f11d",
+    "hair-dryer": "\f11e",
+    "salon": "\f11f",
+    "makeup": "\f120",
+    "shop-1": "\f121",
+    "grocery": "\f122",
+);
+
+.flaticon-gate:before {
+    content: map-get($flaticon-map, "gate");
+}
+.flaticon-toilet:before {
+    content: map-get($flaticon-map, "toilet");
+}
+.flaticon-bathroom:before {
+    content: map-get($flaticon-map, "bathroom");
+}
+.flaticon-bedroom:before {
+    content: map-get($flaticon-map, "bedroom");
+}
+.flaticon-living-room:before {
+    content: map-get($flaticon-map, "living-room");
+}
+.flaticon-security:before {
+    content: map-get($flaticon-map, "security");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-parking:before {
+    content: map-get($flaticon-map, "parking");
+}
+.flaticon-balcony:before {
+    content: map-get($flaticon-map, "balcony");
+}
+.flaticon-water-supply:before {
+    content: map-get($flaticon-map, "water-supply");
+}
+.flaticon-electric:before {
+    content: map-get($flaticon-map, "electric");
+}
+.flaticon-air-conditioner:before {
+    content: map-get($flaticon-map, "air-conditioner");
+}
+.flaticon-washing-machine:before {
+    content: map-get($flaticon-map, "washing-machine");
+}
+.flaticon-shop:before {
+    content: map-get($flaticon-map, "shop");
+}
+.flaticon-dumbbell:before {
+    content: map-get($flaticon-map, "dumbbell");
+}
+.flaticon-lounge:before {
+    content: map-get($flaticon-map, "lounge");
+}
+.flaticon-party-dj:before {
+    content: map-get($flaticon-map, "party-dj");
+}
+.flaticon-sunset:before {
+    content: map-get($flaticon-map, "sunset");
+}
+.flaticon-park:before {
+    content: map-get($flaticon-map, "park");
+}
+.flaticon-venus-de-milo:before {
+    content: map-get($flaticon-map, "venus-de-milo");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon-map, "wrench");
+}
+.flaticon-cocktail:before {
+    content: map-get($flaticon-map, "cocktail");
+}
+.flaticon-hotel:before {
+    content: map-get($flaticon-map, "hotel");
+}
+.flaticon-garbage:before {
+    content: map-get($flaticon-map, "garbage");
+}
+.flaticon-television:before {
+    content: map-get($flaticon-map, "television");
+}
+.flaticon-wifi-signal:before {
+    content: map-get($flaticon-map, "wifi-signal");
+}
+.flaticon-kitchen:before {
+    content: map-get($flaticon-map, "kitchen");
+}
+.flaticon-cleaning:before {
+    content: map-get($flaticon-map, "cleaning");
+}
+.flaticon-hair-dryer:before {
+    content: map-get($flaticon-map, "hair-dryer");
+}
+.flaticon-salon:before {
+    content: map-get($flaticon-map, "salon");
+}
+.flaticon-makeup:before {
+    content: map-get($flaticon-map, "makeup");
+}
+.flaticon-shop-1:before {
+    content: map-get($flaticon-map, "shop-1");
+}
+.flaticon-grocery:before {
+    content: map-get($flaticon-map, "grocery");
+}

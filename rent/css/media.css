@@ -1,0 +1,265 @@
+::-webkit-scrollbar {
+     width: 3px;
+
+} /* this targets the default scrollbar (compulsory) */
+
+
+::-webkit-scrollbar-track {
+      background-color: #000;
+
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color:#fff; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #000;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: #000;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+@keyframes rainbow {
+    0% { background-position: 0% 100%; }
+    50% { background-position: 100% 200%; }
+    100% { background-position: 0% 100%; }
+}
+
+#rainbow-progress-bar {
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 900% 900%;
+
+    animation: rainbow 9s ease infinite;
+}
+
+.invalid-input{
+  border: 1px solid red !important;
+}
+
+img.empty-state {
+    width: 20%;
+    margin: 0 auto;
+}
+
+div.nooklyn_listing_square div.nooklyn_listing_tag div.nooklyn_listing_square_room{
+      width: auto;
+      padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#error_message, div#error_message2{
+  color: red;
+  font-weight: bold;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #222;
+    text-decoration: none;
+}
+
+
+img.navbar-wordmark {
+    width: 130px;
+}
+
+.img-fluid.illustration{
+	width: 70%;
+}
+
+div#nklyn-homepage-main-section img.sweet-j{
+	max-width: 400px;
+}
+
+img.footer-wordmark{
+	width: 120px;
+}
+
+div.nklyn-advertise-agents-new-feature-card img{
+	width: 100% !important;
+}
+
+div.nklyn-advertise-agents-features-row, div.nklyn-advertise-agents-features{
+	padding-top: 5px;
+}
+
+div.nklyn-listing-card-img{
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} 
+
+.ReactModal__Content.dark-gray-container.modal-dialog .modal-content .login-page .close {
+    display: block;
+}
+
+.nklyn-listing-search-bar{
+  height: 60px !important;
+}
+
+#bottomAdd {
+    position: fixed;
+    bottom: 10px;
+    width: 60%;
+    height: 40px;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.btn-facebook-outline {
+    width: 100%;
+    text-transform: uppercase;
+    color: #ffc03a !important;
+    border-color: #404040;
+    border-radius: 100px;
+    background: #000;
+    opacity: .9;
+    font-weight: 900;
+}
+
+div.listing-card-img{
+  background: #222;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div.flex-listing{
+  margin-bottom: 15px;
+}
+
+
+.meta-link {
+    display: none !important;
+}
+
+.btn-black-yellow-signup{
+  color: #000;
+}
+
+div.col-train i{
+  color: #ffc03a; 
+}
+div#nklyn-homepage-main-section {
+    position: relative;
+    padding-top: 100px;
+    padding-right: 5px;
+    height: 620px;
+    width: 100%;
+    text-align: left;
+    background-image: linear-gradient(
+269deg, rgba(0,0,0,0.14) 40%, rgba(0,0,0,0.83) 73%, #000 100%),url(../images/land3.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+div#nklyn-homepage-main-section p {
+    max-width: 563px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    font-family: "Chronicle SSm A", "Chronicle SSm B", serif;
+    line-height: 1.7;
+    color: #fff;
+}
+
+button.show_date{
+  width: auto !important;
+  color: #ffc03a !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+
+.nklyn-listing-search-bar.view{
+    height: 80px !important;
+   
+}
+
+div.flex-fill i{
+  font-weight: 600;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+
+  div#action_call{
+    
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+   
+  }
+
+
+  div#action_call a.button{
+   
+   
+  }
+
+
+  div#nklyn-homepage-main-section {
+     height: 420px;
+  background-image: linear-gradient(269deg, rgba(0,0,0,0.14) 40%, rgba(0,0,0,0.83) 73%, #000 100%),url(../images/land5.jpg) !important;
+  background-position: left;
+  }
+
+
+
+}
+@media screen and (max-width: 414px){
+
+  div#nklyn-homepage-main-section p {
+    font-size: 17px;
+  }
+
+  img.empty-state {
+    width: 40% !important;
+    margin: 0 auto;
+}
+
+  div.listing-card-img{
+    height: 240px;
+  }
+
+div#nklyn-homepage-main-section img.sweet-j {
+    max-width: 150px;
+}
+
+div#nklyn-homepage-main-section {
+	padding-top: 50px;
+}
+
+  .meta-link {
+    display: block !important;
+}
+
+.meta-x{
+  display: none !important;
+}
+
+}
