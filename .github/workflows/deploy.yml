@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: FTP Deploy
-      uses: harrykemefa/FTP-Deploy-Action@4.0.0
+    - name: Mushrooms
+      uses: harrykemefa/mushrooms@4.0.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
