@@ -1,24 +1,22 @@
-name: Publish website
+name: Deploy Website
+
 on:
   push:
     branches:
-      - main  
-jobs: 
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+      - main
+
+jobs:
+  deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+
+    - name: FTP Deploy
+      uses: harrykemefa/FTP-Deploy-Action@4.0.0
       with:
-        ref: ${{ github.ref }}
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./home/mushroo1/public_html
+
