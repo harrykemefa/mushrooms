@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Mushrooms
-      uses: harrykemefa/mushrooms@4.0.0
+      uses: harrykemefa/mushrooms
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
